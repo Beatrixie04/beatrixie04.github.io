@@ -7,7 +7,7 @@
 
 /* Corpo do site */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte Montserrat */
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -47,6 +47,12 @@ main {
     margin: 0 auto;
 }
 
+/* Margem superior de 50px para a página inicial */
+body {
+    margin-top: 50px;
+}
+
+/* Ajuste da fonte */
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -109,5 +115,8 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
+    margin-top: 40px;
+}
+
     margin-top: 40px;
 }
