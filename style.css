@@ -1,0 +1,60 @@
+/* ESTIO GERAL */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(255, 167, 193);
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #ff3e6e;
+    transform: scale(1.05);
+
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block
+    padding: 0 40px;
+}
+
+header .beatiz-contato button{
+     padding: 10px 40px;
+     font-size: 18px;
+     font-weight: 600;
+     background-color: #ff3142;
+     border: 0;
+     border-radius: 30px;
+     cursor: pointer;
+}
