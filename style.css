@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", serif;
 }
 
 body {
@@ -14,6 +14,36 @@ body {
 .interface {
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.beatriz-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ed1e79;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #960543;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #960543;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #ffcca2;
+    transform: scale(1.05);
 }
 
 /* ESTILO DO CABEÇALHO */
@@ -49,12 +79,117 @@ header nav ul li {
     padding: 0 40px;
 }
 
-header .beatriz-contato button {
-    padding: 10px 40px;
+.beatriz-contato button{
+color: white;
+}
+
+/*ESTILO TOPO SITE*/
+
+section .topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.topo-do-site h1{
+    color: #ed1e79;
+    font-size: 50px;
+}
+
+.topo-do-site .txt-topo-site p{
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+/*ESTILO DAS ESPECIALIDADES*/
+
+section.skills{
+    padding: 177px 4%;
+}
+
+section.skills h2{
+    font-size: 45px;
+}
+
+
+section.skills .flex{
+    gap: 60px;
+}
+
+
+.skills .skills-box{
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    margin-top: 60px;
+    transition: .2s;
+}
+
+.skills .skills-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #eba4c3;
+}
+
+.skills .skills-box i{
+    font-size: 80px;
+    color: #960543;
+}
+
+.skills .skills-box h3{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.skills .skills-box p{
     font-size: 18px;
-    font-weight: 600;
-    background-color: #ff31a2;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
+}
+
+/*ESTILO DO SOBRE*/
+
+section.sobre{
+    padding: 80px 4%
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #000000;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #ed1e79;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .redes-sociais button{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: 0;
+background-color: #ed1e79;
+font-size: 30px;
+cursor: pointer;
+margin: 0 10px;
+transition: .2s;
+}
+
+.sobre .txt-sobre .redes-sociais i{
+    color: white;
 }
