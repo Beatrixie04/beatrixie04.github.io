@@ -179,7 +179,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .redes-sociais button{
+.redes-sociais button{
 width: 60px;
 height: 60px;
 border-radius: 50%;
@@ -304,3 +304,19 @@ form .enviar input{
     cursor: pointer;
     transition: .2s;
 }
+
+/*ESTILO DO FOOTER*/
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffa2d0b0;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+.line-footer .redes-sociais i{
+    color: white;
+}
+
